@@ -1,9 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import ReactDOM from "react-dom";
 
+class Car extends React.Component {
+    render() {
+        return <h2>I am a Car!</h2>;
+    }
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Car/>);
+/*
 function App() {
   return (
-    <div className="App">
+    /!*<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,8 +28,9 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div>*!/
   );
 }
+*/
 
-export default App;
+// export default App;
