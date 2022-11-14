@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function Car() {
   return null;
-}
+
 
 root.render(
   <React.StrictMode>

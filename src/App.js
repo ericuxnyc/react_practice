@@ -3,13 +3,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class Car extends React.Component {
-    render() {
-        return <h2>I am a Car!</h2>;
-    }
+  render() {
+    return <h2>I am a Car!</h2>;
+  }
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Car/>);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Car />);
 /*
 function App() {
   return (
@@ -32,5 +31,7 @@ function App() {
   );
 }
 */
+
+fire;
 
 // export default App;
